@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <title>Aula 21</title>
+</head>
+<body>
+    <main>
+        <section class="box-form">
+            <h1>Registre-se</h1>
+
+            <div class="main-form">
+                <form action="Cadastro" class="Cadastro">
+                    <label for="Nome">Nome:</label>
+                    <input type="text" id="Nome" name="Nome" required>
+                    <!-- <BR> pode ser usado para dar espaçamento entre os comandos -->
+                    
+                    <label for="Sobrenome">Sobrenome:</label>
+                    <input type="text" id="Sobrenome" name="Sobrenome" required>
+                    
+                    <label for="Senha">Senha:</label>
+                    <input type="password" id="Senha" name="Senha" placeholder="Digite sua senha" required>
+                    
+                    <label for="Confsenha">Confirme sua Senha:</label>
+                    <input type="password" id="Confsenha" name="Confsenha" placeholder="Confirme sua senha" required>
+                    
+                    <label for="idade">Coloque seu ano de nascimento:</label>
+                    <input type="date" id="idade" name="idade" required>
+                    <br><br>
+                    <h3>Qual o plano que você vai escolher?</h3>
+                    <input type="radio" name="checagem" id="checagem" value="Basico">
+                    <label for="checagem">Plano Basico</label>
+                    <input type="radio" name="checagem" id="checagem" value="Padrão">
+                    <label for="checagem">Plano Padrão</label>    
+                    <input type="radio" name="checagem" id="checagem" value="Plus">
+                    <label for="checagem">Plano Plus</label>   
+                    <br><br>
+
+                    <h3>Você aceita termos e condições?</h3>
+
+                    <label for="termos">Sim</label>
+                    <input type="radio" id="termos" name="termos" value="Sim" required>
+                    <label for="termos">Não</label>
+                    <input type="radio" id="termos" name="termos" value="Não"required>
+                    <label for="termos">Talvez</label>
+                    <input type="radio" id="termos" name="termos" value="Não"required>
+                       
+
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html> 
